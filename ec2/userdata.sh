@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.4.1-linux-x86_64.tar.gz
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.4.1-linux-x86_64.tar.gz.sha512
 shasum -a 512 -c elasticsearch-8.4.1-linux-x86_64.tar.gz.sha512 
